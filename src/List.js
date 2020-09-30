@@ -11,7 +11,7 @@ export default function List(props) {
         {props.cards.map((card) => (
           <Cards key={card.id} title={card.title} content={card.content} />
         ))}
-        <button type="button" class="List-add-button">
+        <button type="button" className="List-add-button">
           + Add Random Card
         </button>
       </div>

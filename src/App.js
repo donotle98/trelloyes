@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import store from "./store";
 import List from "./List";
 
 class App extends React.Component {
